@@ -1,0 +1,191 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>aplicación extra</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/appex.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    	<h1>Carreras a elegir.</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+
+        </div>
+        <!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/historia.jpg" alt="Historia" title="Historia" id="wows1_0"/></li>
+<li><img src="data1/images/instalacionesunam.jpg" alt="InstalacionesUnam" title="InstalacionesUnam" id="wows1_1"/></li>
+<li><img src="data1/images/literatura.jpg" alt="Literatura" title="Literatura" id="wows1_2"/></li>
+<li><img src="data1/images/universidad.jpg" alt="Universidad" title="Universidad" id="wows1_3"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="Historia"><img src="data1/tooltips/historia.jpg" alt="Historia"/>1</a>
+<a href="#" title="InstalacionesUnam"><img src="data1/tooltips/instalacionesunam.jpg" alt="InstalacionesUnam"/>2</a>
+<a href="#" title="Literatura"><img src="data1/tooltips/literatura.jpg" alt="Literatura"/>3</a>
+<a href="#" title="Universidad"><img src="data1/tooltips/universidad.jpg" alt="Universidad"/>4</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Slideshow CSS</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+<div>
+	<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    	<h2>Licenciatura Literatura inglesa</h2>
+    	<p>Se muestra datos sobre esta carrera</p>
+    	</a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Licenciatura Letras hispánicas</h2>
+        <p>Se muestra datos acerca de esta carrera</p>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Licenciatura en historia</h2>
+        <p>Muestra datos acerca de esto</p>
+        </a>
+    </li>
+
+
+<div data-role="collapsible" data-content-theme="false">
+          <h1>Datos del alumno</h1>
+           <div>
+           <ul>
+           <li>Nombre: Ericka Lisset Lima Álamo</li>
+           <li>Escuela: CBTiS no. 16</li>
+           <li>Grado y grupo: 4° "H"</li>
+           </ul>
+           <br>
+           </div>
+        <div>
+          <img src="imagenes/imagenyo.jpg" width="25%" height="25%"></div>
+        </div>
+        </div>
+
+<div data-role="footer" align="center" data-theme="a">
+	<div>
+    	<img src="res/android/mdpi.png" width="56" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion Extra</h4>
+       <h4>Carreras posibles a elegir</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Literatura inglesa</h1>
+    </div>
+<p>La única universidad que ofrece esta carrera es la universidad de la UNAM, situada en la Ciudad de México, consta de 8 semestres, 
+y su estadísticas de demanda es que por cada 3 que solicitan la carrera 1 entra. Para poder ingresar necesitas manejar el inglés a la prefección, y
+antes de entrar en esta carrera te hacen un pre examen de admisión, que es una entrevista para que te permitan hacer el eamen de admisión posteriormente.</p>
+<p><a href="http://oferta.unam.mx/carreras/78/lengua-y-literaturas-modernas-letras-alemanas-francesas-inglesas-italianas-o-portuguesas">Da clic aquí para más información</a></p>
+   <p><a href="http://suayed.unam.mx/oferta/fichas_abierta/lic_lengualiteratura_abierta.html">O aquí por si quieres estudiar en línea</a></p>
+   <img src="imagenes/imagen1.jpg" width="20%" height="20%"><img src="imagenes/imagen3.jpg" width="20%" height="20%"><img src="imagenes/imagen2.jpg" width="20%" height="20%">
+<h4>Carreras posibles a elegir</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+   
+   <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Literatura hispánica</h1>
+   </div>
+   <div data-role="content" align="center">
+   <div>
+   <p>La literatura hispánica se caracteriza por tratar acerca de toda la literatura que tiene el idioma español, por eso prefiero esta en lugar de 
+otra que le es muy parecida "Licenciatura en literatura hipanoamericana" ya que esta, como lo dice su nombre no abordan las obras españolas, y a mi me gustaría 
+conocer todos.</p>
+<p>Las universidades que tienen esta licenciatura son:</p>
+<ul>
+<li>UNAM <a href="http://oferta.unam.mx/carreras/78/lengua-y-literaturas-modernas-letras-alemanas-francesas-inglesas-italianas-o-portuguesas">Pincha aquí para conocer más la carrera </a>\ <a href="http://suayed.unam.mx/oferta/fichas_abierta/lic_lenglithispanica_abierta.html">O aquí para conocer más la carrera en su modo abierto</a></li>
+<li>UDLAP <a href="http://www.udlap.mx/ofertaacademica/planestudios.aspx?cveCarrera=LLI">Click aquí para conocer más la carrera</a></li>
+<li>Tecnológico de Monterrey <a href="http://www.itesm.mx/wps/wcm/connect/itesm/tecnologico+de+monterrey/carreras+profesionales/areas+de+estudio/ciencias+sociales+y+humanidades/lle">Da click aquí para conocer más la carrera</a></li>
+<li>BUAP <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/licenciatura_en_linguistica_y_literatura_hispani_1">Pulsa aquí para conocer más la carrera</a> </li>   
+</ul>
+<img src="imagenes/imagen3.png" width="20%" height="20%">
+</div>
+   </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>Carreras posibles a elegir</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+   
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-back-btn-text="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Historia</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+    <p>Esta carrera hay más universidades que la ofrecen, pero en lo personal, la que me gusta es la universal, no la de México, puesto que me interesan
+más los hechos acontecidos en todo el mundo que solo en mi país.</p>
+<p>Las universidades que la ofrecen son:</p>
+<ul>
+<li>UNAM <a href="http://oferta.unam.mx/carreras/76/historia">Pincha aquí para conocer más la carrera</a> \ <a href="http://suayed.unam.mx/oferta/fichas_abierta/lic_historia_nvo.html">Pincha aquí para conocer más la carrera en su versión abierta.</a> </li>
+<li>BUAP <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/licenciatura_en_historia_1">Click aquí para conocer más la carrera</a>
+</ul>
+<img src="imagenes/imagen4.jpg" width="20%" height="20%"><img src="imagenes/imagen5.jpg" width="20%" height="20%">
+</div>
+   </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>Carreras posibles a elegir</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+   </div>
+      	
+
+   </div>
+   
+   
+</body>
+</html>
